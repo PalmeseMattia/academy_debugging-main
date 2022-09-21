@@ -6,4 +6,3 @@ var Person = /** @class */ (function () {
     return Person;
 }());
 var person = new Person('John', 67);
-//# sourceMappingURL=demo.js.map

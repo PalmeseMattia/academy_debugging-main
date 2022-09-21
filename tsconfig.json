@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
@@ -12,7 +12,6 @@
     "lib": ["es2016","dom"]
   },
   "exclude": [
-    "node_modules",
-    "examples/cookbook"
+    "node_modules"
   ]
 }

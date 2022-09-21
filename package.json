@@ -7,12 +7,13 @@
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\""
   },
   "dependencies": {
-    "systemjs": "0.20.17"
+    "systemjs": "0.20.17",
+    "ts-node": "^10.9.1"
   },
   "devDependencies": {
     "@types/jquery": "3.3.29",
     "concurrently": "5.3.0",
-    "lite-server": "2.5.4",
+    "lite-server": "^2.6.1",
     "typescript": "4.0.3"
   }
 }
